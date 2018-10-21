@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+navbar-header {
+  position: relative;
+}
+
+.navbar {
+    min-height: 100px;
+}
+
+.chicken p{
+  color: black;
+}
+
+#header-nav {
+    padding-left: 15px;
+    background-color: #1CA0C7;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row {
+padding: 0 auto 0;
+}
+
+#nav-list {
+  margin-top: 50px;
+}
+
+.navbar-header h1 {
+  color:black;
+}
+
+#nav-list a {
+  color: black;
+}
+
+
+
+.navbar-default .navbar-collapse {
+  border-color: #1CA0C7;
+  border: 0px;
+  box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #B4BB76;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FF0027;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FF0027;
+}
+
+.navbar-default .navbar-nav>li>a {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  position: absolute;
+  top: 25px;
+  right: 0px;
+}
+
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-fluid h2{
+  color: black;
+  padding-bottom: 25px;
+}
+
+.chicken h3{
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .row {
+    padding-right:5%;
+    padding-left:5%;
+  }
+}
+
+.col-md-12, .col-sm-12, .col-xs-12
+{
+  background: #B2BABB;
+}
